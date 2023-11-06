@@ -116,15 +116,21 @@ DVC
 s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
 
 # Run from terminal:
-<acr-name>: azure cloud registry
-docker build -t <acr-name>.azurecr.io/<image-name> .
-docker tag image-name <acr-name>.azurecr.io/<image-name>
-docker login <acr-name>.azurecr.io
+acr-name: azure cloud registry
 
-docker push kidneyapp.azurecr.io/<image-name>
+docker build -t "acr-name".azurecr.io/"image-name" .
+
+docker tag image-name "acr-name".azurecr.io/"image-name"
+
+docker login "acr-name".azurecr.io
+
+docker push kidneyapp.azurecr.io/"image-name"
 
 # Deployment Steps:
-Build the Docker image of the Source Code
-Push the Docker image to Container Registry
-Launch the Web App Server in Azure
-Pull the Docker image from the container registry to Web App server and run
+1.Build the Docker image of the Source Code
+
+2.Push the Docker image to Container Registry
+
+3.Launch the Web App Server in Azure
+
+4.Pull the Docker image from the container registry to Web App server and run
