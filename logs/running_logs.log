@@ -1,0 +1,741 @@
+[2023-10-26 17:19:32,202: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-26 17:19:32,217: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-26 17:19:32,217: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-26 17:19:32,217: INFO: common: created directory at: artifacts]
+[2023-10-26 17:19:32,217: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-26 17:19:32,217: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1WBkGT2ECESC71zXsHGKItGEGkYR4Olev/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-10-26 17:23:09,296: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1WBkGT2ECESC71zXsHGKItGEGkYR4Olev/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-10-26 17:23:23,765: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-10-26 17:23:23,765: INFO: main: *******************]
+[2023-10-26 17:23:23,765: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-26 17:23:23,781: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-26 17:23:23,781: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-26 17:23:23,781: INFO: common: created directory at: artifacts]
+[2023-10-26 17:23:23,781: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-26 17:23:24,916: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-26 17:23:25,325: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-26 17:23:25,325: INFO: main: *******************]
+[2023-10-26 17:23:25,325: INFO: main: >>>>>> stage Training Model started <<<<<<]
+[2023-10-26 17:23:25,325: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-26 17:23:25,340: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-26 17:23:25,340: INFO: common: created directory at: artifacts]
+[2023-10-26 17:23:25,340: INFO: common: created directory at: artifacts\training]
+[2023-10-26 17:39:46,233: INFO: main: *******************]
+[2023-10-26 17:39:46,233: INFO: main: >>>>>> stage Training Model started <<<<<<]
+[2023-10-26 17:39:46,233: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-26 17:39:46,233: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-26 17:39:46,233: INFO: common: created directory at: artifacts]
+[2023-10-26 17:39:46,233: INFO: common: created directory at: artifacts\training]
+[2023-10-26 17:40:25,820: INFO: main: *******************]
+[2023-10-26 17:40:25,820: INFO: main: >>>>>> stage Training Model started <<<<<<]
+[2023-10-26 17:40:25,820: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-26 17:40:25,820: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-26 17:40:25,833: INFO: common: created directory at: artifacts]
+[2023-10-26 17:40:25,833: INFO: common: created directory at: artifacts\training]
+[2023-10-26 17:53:50,910: INFO: main: *******************]
+[2023-10-26 17:53:50,910: INFO: main: >>>>>> stage Training Model started <<<<<<]
+[2023-10-26 17:53:50,926: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-26 17:53:50,926: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-26 17:53:50,926: INFO: common: created directory at: artifacts]
+[2023-10-26 17:53:50,926: INFO: common: created directory at: artifacts\training]
+[2023-10-27 00:34:14,552: INFO: main: >>>>>> stage Training Model completed <<<<<<
+
+x==========x]
+[2023-10-27 22:15:26,162: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-27 22:15:26,175: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-27 22:15:26,179: INFO: common: created directory at: artifacts]
+[2023-10-27 22:21:40,149: INFO: common: json file saved at: scores.json]
+[2023-10-27 22:21:43,661: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-10-27 22:21:44,469: INFO: builder_impl: Assets written to: C:\Users\VARUND~1\AppData\Local\Temp\tmpx6q5pp1q\model\data\model\assets]
+[2023-10-27 22:30:53,969: INFO: main: *******************]
+[2023-10-27 22:30:53,969: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-27 22:30:53,969: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-27 22:30:53,975: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-27 22:30:53,975: INFO: common: created directory at: artifacts]
+[2023-10-27 22:39:37,496: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-27 22:39:37,511: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-27 22:39:37,511: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-27 22:39:37,511: INFO: common: created directory at: artifacts]
+[2023-10-27 22:39:37,511: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-27 22:39:37,511: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-27 22:40:28,407: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-27 22:40:28,407: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-27 22:40:28,407: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-27 22:40:28,407: INFO: common: created directory at: artifacts]
+[2023-10-27 22:40:28,407: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-27 22:40:28,407: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-27 22:40:42,583: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-27 22:40:43,463: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-10-27 22:40:43,463: INFO: main: *******************]
+[2023-10-27 22:40:43,463: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-27 22:40:43,463: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-27 22:40:43,470: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-27 22:40:43,470: INFO: common: created directory at: artifacts]
+[2023-10-27 22:40:43,470: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-27 22:40:44,061: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-27 22:40:44,345: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-27 22:40:44,345: INFO: main: *******************]
+[2023-10-27 22:40:44,345: INFO: main: >>>>>> stage Training Model started <<<<<<]
+[2023-10-27 22:40:44,345: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-27 22:40:44,345: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-27 22:40:44,345: INFO: common: created directory at: artifacts]
+[2023-10-27 22:40:44,345: INFO: common: created directory at: artifacts\training]
+[2023-10-27 23:05:23,016: INFO: main: >>>>>> stage Training Model completed <<<<<<
+
+x==========x]
+[2023-10-27 23:05:23,018: INFO: main: *******************]
+[2023-10-27 23:05:23,020: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-27 23:05:23,029: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-27 23:05:23,033: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-27 23:05:23,034: INFO: common: created directory at: artifacts]
+[2023-10-27 23:05:53,252: INFO: common: json file saved at: scores.json]
+[2023-10-27 23:06:21,952: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-10-27 23:06:22,697: INFO: builder_impl: Assets written to: C:\Users\VARUND~1\AppData\Local\Temp\tmpdh24dlj3\model\data\model\assets]
+[2023-10-27 23:07:31,274: INFO: main: >>>>>> stage Model Evaluation completed <<<<<<
+
+x==========x]
+[2023-10-28 18:21:56,581: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-28 18:21:56,581: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-28 18:21:56,596: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-28 18:21:56,596: INFO: common: created directory at: artifacts]
+[2023-10-28 18:21:56,596: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-28 18:21:56,596: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1DSL9s5HvUzgaOs8cGVzhMdFjsbIqEIQd/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-10-28 18:22:12,651: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1DSL9s5HvUzgaOs8cGVzhMdFjsbIqEIQd/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2023-10-28 18:22:14,251: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-10-28 18:27:03,787: INFO: main: *******************]
+[2023-10-28 18:27:03,787: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-28 18:27:03,787: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-28 18:27:03,787: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-28 18:27:03,787: INFO: common: created directory at: artifacts]
+[2023-10-28 18:27:03,787: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-28 18:27:04,527: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-28 18:27:04,842: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-28 18:28:36,221: INFO: main: *******************]
+[2023-10-28 18:28:36,221: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-28 18:28:36,229: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-28 18:28:36,229: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-28 18:28:36,229: INFO: common: created directory at: artifacts]
+[2023-10-28 18:28:36,229: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-28 18:28:36,848: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-28 18:28:37,157: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-28 18:38:20,644: INFO: main: *******************]
+[2023-10-28 18:38:20,644: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-28 18:38:20,658: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-28 18:38:20,658: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-28 18:38:20,658: INFO: common: created directory at: artifacts]
+[2023-10-28 18:38:20,658: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-28 18:38:21,242: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-28 18:38:21,590: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-28 18:40:23,795: INFO: main: *******************]
+[2023-10-28 18:40:23,795: INFO: main: >>>>>> stage Training Model started <<<<<<]
+[2023-10-28 18:40:23,800: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-28 18:40:23,803: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-28 18:40:23,803: INFO: common: created directory at: artifacts]
+[2023-10-28 18:40:23,803: INFO: common: created directory at: artifacts\training]
+[2023-10-28 19:02:11,651: ERROR: main: [WinError 233] No process is on the other end of the pipe]
+Traceback (most recent call last):
+  File "main.py", line 36, in <module>
+    train_model.main()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\pipeline\stage_03_training.py", line 17, in main
+    training.train()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\components\training_data.py", line 76, in train
+    self.model.fit(
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\utils\io_utils.py", line 79, in print_msg
+    sys.stdout.write(message)
+OSError: [WinError 233] No process is on the other end of the pipe
+[2023-10-30 12:27:39,981: INFO: main: *******************]
+[2023-10-30 12:27:39,981: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-30 12:27:39,981: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 12:27:39,981: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 12:27:39,981: INFO: common: created directory at: artifacts]
+[2023-10-30 12:27:39,981: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-30 12:27:40,484: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-30 12:27:40,735: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-30 12:27:40,735: INFO: main: *******************]
+[2023-10-30 12:27:40,735: INFO: main: >>>>>> stage Training Model started <<<<<<]
+[2023-10-30 12:27:40,735: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 12:27:40,751: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 12:27:40,752: INFO: common: created directory at: artifacts]
+[2023-10-30 12:27:40,752: INFO: common: created directory at: artifacts\training]
+[2023-10-30 12:52:26,305: INFO: main: >>>>>> stage Training Model completed <<<<<<
+
+x==========x]
+[2023-10-30 12:52:26,306: INFO: main: *******************]
+[2023-10-30 12:52:26,306: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-30 12:52:26,314: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 12:52:26,319: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 12:52:26,322: INFO: common: created directory at: artifacts]
+[2023-10-30 12:52:26,322: ERROR: main: 'MLFLOW_TRACKING_URI']
+Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    model_eval.main()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 13, in main
+    eval_config = config.get_evaluation_config()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 80, in get_evaluation_config
+    mlflow_uri=os.environ['MLFLOW_TRACKING_URI'],
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\os.py", line 675, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MLFLOW_TRACKING_URI'
+[2023-10-30 13:25:47,325: INFO: main: *******************]
+[2023-10-30 13:25:47,325: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-30 13:25:47,341: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 13:25:47,341: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 13:25:47,341: INFO: common: created directory at: artifacts]
+[2023-10-30 13:25:47,341: ERROR: main: 'MLFLOW_TRACKING_URI']
+Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    model_eval.main()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 13, in main
+    eval_config = config.get_evaluation_config()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 80, in get_evaluation_config
+    mlflow_uri=os.environ['MLFLOW_TRACKING_URI'],
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\os.py", line 675, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MLFLOW_TRACKING_URI'
+[2023-10-30 13:27:38,684: INFO: main: *******************]
+[2023-10-30 13:27:38,684: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-30 13:27:38,684: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 13:27:38,684: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 13:27:38,684: INFO: common: created directory at: artifacts]
+[2023-10-30 13:27:55,287: INFO: common: json file saved at: scores.json]
+[2023-10-30 13:27:56,318: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 401 != 200. Response body: '=============== ATTENTION! ===============
+
+To use authentication, you must first: 
+    Get your default access token from: https://dagshub.com/user/settings/tokens
+    OR 
+    Set a password: https://dagshub.com/user/settings/password 
+==========================================']
+Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    model_eval.main()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 16, in main
+    evaluation.log_into_mlflow()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\components\model_evaluation.py", line 63, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 401 != 200. Response body: '=============== ATTENTION! ===============
+
+To use authentication, you must first: 
+    Get your default access token from: https://dagshub.com/user/settings/tokens
+    OR 
+    Set a password: https://dagshub.com/user/settings/password 
+=========================================='
+[2023-10-30 13:31:12,737: INFO: main: *******************]
+[2023-10-30 13:31:12,737: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-30 13:31:12,737: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 13:31:12,737: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 13:31:12,737: INFO: common: created directory at: artifacts]
+[2023-10-30 13:31:52,730: INFO: main: *******************]
+[2023-10-30 13:31:52,730: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-30 13:31:52,730: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 13:31:52,746: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 13:31:52,746: INFO: common: created directory at: artifacts]
+[2023-10-30 13:33:08,991: INFO: main: *******************]
+[2023-10-30 13:33:08,991: INFO: main: >>>>>> stage Training Model started <<<<<<]
+[2023-10-30 13:33:09,006: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 13:33:09,006: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 13:33:09,006: INFO: common: created directory at: artifacts]
+[2023-10-30 13:33:09,006: INFO: common: created directory at: artifacts\training]
+[2023-10-30 13:35:19,261: INFO: main: *******************]
+[2023-10-30 13:35:19,261: INFO: main: >>>>>> stage Training Model started <<<<<<]
+[2023-10-30 13:35:19,264: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 13:35:19,265: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 13:35:19,266: INFO: common: created directory at: artifacts]
+[2023-10-30 13:35:19,266: INFO: common: created directory at: artifacts\training]
+[2023-10-30 13:35:49,485: INFO: main: *******************]
+[2023-10-30 13:35:49,485: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-30 13:35:49,485: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 13:35:49,485: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 13:35:49,485: INFO: common: created directory at: artifacts]
+[2023-10-30 13:35:49,485: ERROR: main: 'MLFLOW_TRACKING_URI']
+Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    model_eval.main()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 13, in main
+    eval_config = config.get_evaluation_config()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 80, in get_evaluation_config
+    mlflow_uri=os.environ['MLFLOW_TRACKING_URI'],
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\os.py", line 675, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MLFLOW_TRACKING_URI'
+[2023-10-30 13:36:35,139: INFO: main: *******************]
+[2023-10-30 13:36:35,139: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-30 13:36:35,139: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 13:36:35,139: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 13:36:35,139: INFO: common: created directory at: artifacts]
+[2023-10-30 13:37:52,248: INFO: main: *******************]
+[2023-10-30 13:37:52,248: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-30 13:37:52,264: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 13:37:52,264: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 13:37:52,264: INFO: common: created directory at: artifacts]
+[2023-10-30 13:37:52,264: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-30 13:37:52,686: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-30 13:37:52,915: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-30 13:37:52,916: INFO: main: *******************]
+[2023-10-30 13:37:52,916: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-30 13:37:52,919: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 13:37:52,921: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 13:37:52,921: INFO: common: created directory at: artifacts]
+[2023-10-30 14:02:13,129: INFO: main: *******************]
+[2023-10-30 14:02:13,130: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-30 14:02:13,133: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 14:02:13,136: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 14:02:13,136: INFO: common: created directory at: artifacts]
+[2023-10-30 14:02:13,137: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-30 14:02:13,588: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-30 14:02:13,823: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-30 14:02:13,825: INFO: main: *******************]
+[2023-10-30 14:02:13,825: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-30 14:02:13,828: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-30 14:02:13,830: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-30 14:02:13,830: INFO: common: created directory at: artifacts]
+[2023-10-30 14:04:55,770: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:04:55,771: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:05:10,224: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:05:10] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:05:13,360: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2023-10-30 14:05:13,363: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:05:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-10-30 14:05:24,515: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:05:24] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:05:54,869: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2023-10-30 14:05:54,869: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:05:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-10-30 14:06:45,958: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:06:45] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:06:47,220: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:06:47] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:06:48,287: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:06:48] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:07:16,004: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2023-10-30 14:07:16,004: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:07:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-10-30 14:09:18,680: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:09:18] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:09:19,165: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:09:19] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:09:30,728: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:09:30,728: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:09:37,068: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:09:37] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:09:48,901: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:09:48] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:13:11,684: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:13:11,684: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:13:17,000: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:13:17] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:13:29,260: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:13:29] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:14:23,552: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:14:23] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:14:26,415: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:14:26] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:14:34,334: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:14:34] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:15:44,498: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:15:44,498: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:15:49,968: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:15:49] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:15:57,794: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:15:57] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:16:34,759: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:16:34,759: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:16:40,287: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:16:40] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:16:49,214: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:16:49] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:17:15,397: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:17:15,397: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:17:23,260: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:17:23] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:17:31,656: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:17:31] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:18:44,815: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:18:44,815: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:18:59,317: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:18:59] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:19:06,765: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:19:06] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:25:26,531: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:25:26,531: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:25:38,444: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:25:38] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:25:46,038: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:25:46] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:28:18,330: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:28:18,330: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:28:28,128: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:28:28] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:28:41,348: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:28:41,349: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:28:50,820: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:28:50] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:28:58,144: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:28:58] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:29:50,289: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:29:50,289: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:29:52,439: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:29:52] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:30:00,805: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:30:00] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:30:31,291: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:30:31,291: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:30:33,918: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:30:33] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:30:43,454: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:30:43] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:31:14,912: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:31:14] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:31:26,846: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:31:26,846: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:31:36,102: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:31:36] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:31:56,919: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:31:56,919: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:31:57,719: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:31:57] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:32:05,196: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:32:05] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:33:18,256: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:33:18,256: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:33:18,470: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:33:18] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:33:44,357: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:33:44] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:33:53,515: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:33:53] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:34:02,841: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:34:02] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:34:34,082: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:34:34,082: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:34:45,678: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:34:45] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:34:53,886: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:34:53] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:35:38,386: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:35:38,386: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:35:39,618: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:35:39] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:35:47,584: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:35:47] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:44:54,662: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:44:54] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:44:57,697: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:44:57] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:45:24,461: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:45:24] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:45:28,095: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:45:28] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:45:38,397: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:45:38] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:45:45,670: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\keras\backend.py", line 2101, in random_uniform
+    return tf.random.stateless_uniform(
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: {{function_node __wrapped__Mul_device_/job:localhost/replica:0/task:0/device:CPU:0}} OOM when allocating tensor with shape[3,3,512,512] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu [Op:Mul]
+[2023-10-30 14:45:45,683: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:45:45] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-10-30 14:45:45,696: ERROR: _internal: Error on request:
+Traceback (most recent call last):
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\werkzeug\serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\werkzeug\serving.py", line 347, in execute
+    data = self.rfile.read(10_000_000)
+MemoryError]
+[2023-10-30 14:46:50,957: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-30 14:46:50,957: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-30 14:46:56,593: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:46:56] "GET / HTTP/1.1" 200 -]
+[2023-10-30 14:47:03,830: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:47:03] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:47:15,861: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:47:15] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:47:30,735: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:47:30] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:47:37,697: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001496F777310> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2023-10-30 14:47:37,701: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:47:37] "POST /predict HTTP/1.1" 200 -]
+[2023-10-30 14:47:47,790: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001496F7775E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2023-10-30 14:47:47,796: INFO: _internal: 127.0.0.1 - - [30/Oct/2023 14:47:47] "POST /predict HTTP/1.1" 200 -]
+[2023-10-31 12:29:16,486: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-31 12:29:16,487: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-31 12:32:17,908: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2023-10-31 12:32:17,908: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-31 12:32:24,880: INFO: _internal: 127.0.0.1 - - [31/Oct/2023 12:32:24] "GET / HTTP/1.1" 200 -]
+[2023-10-31 12:32:40,661: INFO: main: *******************]
+[2023-10-31 12:32:40,661: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-31 12:32:40,661: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-31 12:32:40,669: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-31 12:32:40,669: INFO: common: created directory at: artifacts]
+[2023-10-31 12:32:40,669: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-31 12:32:41,408: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-31 12:32:41,751: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-31 12:32:41,751: INFO: main: *******************]
+[2023-10-31 12:32:41,762: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-31 12:32:41,768: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-31 12:32:41,770: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-31 12:32:41,770: INFO: common: created directory at: artifacts]
+[2023-10-31 12:33:22,273: INFO: common: json file saved at: scores.json]
+[2023-10-31 12:33:42,830: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/log-batch failed with error code 400 != 200. Response body: '"repo not associated with run"']
+Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    model_eval.main()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 16, in main
+    evaluation.log_into_mlflow()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\components\model_evaluation.py", line 65, in log_into_mlflow
+    mlflow.log_metrics(
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 677, in log_metrics
+    MlflowClient().log_batch(run_id=run_id, metrics=metrics_arr, params=[], tags=[])
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 986, in log_batch
+    self._tracking_client.log_batch(run_id, metrics, params, tags)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 394, in log_batch
+    self.store.log_batch(run_id=run_id, metrics=metrics_batch, params=[], tags=[])
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 321, in log_batch
+    self._call_endpoint(LogBatch, req_body)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/log-batch failed with error code 400 != 200. Response body: '"repo not associated with run"'
+[2023-10-31 12:33:44,056: INFO: _internal: 127.0.0.1 - - [31/Oct/2023 12:33:44] "GET /train HTTP/1.1" 200 -]
+[2023-10-31 12:33:44,267: INFO: _internal: 127.0.0.1 - - [31/Oct/2023 12:33:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2023-10-31 12:34:09,713: INFO: main: *******************]
+[2023-10-31 12:34:09,726: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-10-31 12:34:09,730: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-31 12:34:09,730: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-31 12:34:09,730: INFO: common: created directory at: artifacts]
+[2023-10-31 12:34:09,730: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-31 12:34:10,330: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-31 12:34:10,630: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-10-31 12:34:10,630: INFO: main: *******************]
+[2023-10-31 12:34:10,630: INFO: main: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-10-31 12:34:10,630: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-31 12:34:10,630: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-31 12:34:10,630: INFO: common: created directory at: artifacts]
+[2023-10-31 12:34:27,452: INFO: _internal: 127.0.0.1 - - [31/Oct/2023 12:34:27] "GET / HTTP/1.1" 200 -]
+[2023-10-31 12:34:40,694: INFO: _internal: 127.0.0.1 - - [31/Oct/2023 12:34:40] "POST /predict HTTP/1.1" 200 -]
+[2023-10-31 12:34:50,100: INFO: common: json file saved at: scores.json]
+[2023-10-31 12:34:56,789: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-10-31 12:34:58,889: INFO: builder_impl: Assets written to: C:\Users\VARUND~1\AppData\Local\Temp\tmpt0t6hai9\model\data\model\assets]
+[2023-10-31 12:36:05,263: INFO: main: >>>>>> stage Model Evaluation completed <<<<<<
+
+x==========x]
+[2023-10-31 12:36:06,464: INFO: _internal: 127.0.0.1 - - [31/Oct/2023 12:36:06] "GET /train HTTP/1.1" 200 -]
+[2023-11-05 23:55:46,337: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2023-11-05 23:55:46,337: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-05 23:55:46,337: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-05 23:55:46,337: INFO: common: created directory at: artifacts]
+[2023-11-05 23:55:46,337: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-05 23:55:46,812: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-05 23:55:47,067: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-11-05 23:55:51,234: INFO: stage_03_training: >>>>>> stage Training Model started <<<<<<]
+[2023-11-05 23:55:51,234: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-05 23:55:51,234: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-05 23:55:51,234: INFO: common: created directory at: artifacts]
+[2023-11-05 23:55:51,234: INFO: common: created directory at: artifacts\training]
+[2023-11-06 00:21:48,958: INFO: stage_03_training: >>>>>> stage Training Model completed <<<<<<
+
+x==========x]
+[2023-11-06 00:21:58,112: INFO: stage_04_model_evaluation: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-11-06 00:21:58,114: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-06 00:21:58,116: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-06 00:21:58,117: INFO: common: created directory at: artifacts]
+[2023-11-06 00:21:58,117: ERROR: stage_04_model_evaluation: 'MLFLOW_TRACKING_URI']
+Traceback (most recent call last):
+  File "src/cnnClassifier/pipeline/stage_04_model_evaluation.py", line 22, in <module>
+    obj.main()
+  File "src/cnnClassifier/pipeline/stage_04_model_evaluation.py", line 13, in main
+    eval_config = config.get_evaluation_config()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 80, in get_evaluation_config
+    mlflow_uri=os.environ['MLFLOW_TRACKING_URI'],
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\os.py", line 675, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MLFLOW_TRACKING_URI'
+[2023-11-06 00:48:55,498: INFO: stage_04_model_evaluation: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-11-06 00:48:55,502: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-06 00:48:55,508: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-06 00:48:55,512: INFO: common: created directory at: artifacts]
+[2023-11-06 00:48:55,513: ERROR: stage_04_model_evaluation: 'MLFLOW_TRACKING_URI']
+Traceback (most recent call last):
+  File "src/cnnClassifier/pipeline/stage_04_model_evaluation.py", line 22, in <module>
+    obj.main()
+  File "src/cnnClassifier/pipeline/stage_04_model_evaluation.py", line 13, in main
+    eval_config = config.get_evaluation_config()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 80, in get_evaluation_config
+    mlflow_uri=os.environ['MLFLOW_TRACKING_URI'],
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\os.py", line 675, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MLFLOW_TRACKING_URI'
+[2023-11-06 00:50:07,618: INFO: stage_04_model_evaluation: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-11-06 00:50:07,624: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-06 00:50:07,624: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-06 00:50:07,624: INFO: common: created directory at: artifacts]
+[2023-11-06 00:50:07,624: ERROR: stage_04_model_evaluation: 'MLFLOW_TRACKING_URI']
+Traceback (most recent call last):
+  File "src/cnnClassifier/pipeline/stage_04_model_evaluation.py", line 22, in <module>
+    obj.main()
+  File "src/cnnClassifier/pipeline/stage_04_model_evaluation.py", line 13, in main
+    eval_config = config.get_evaluation_config()
+  File "c:\mlprojects\kidney-disease-classification\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 80, in get_evaluation_config
+    mlflow_uri=os.environ['MLFLOW_TRACKING_URI'],
+  File "C:\Users\Varundatt Tiwari\anaconda3\envs\kidney\lib\os.py", line 675, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'MLFLOW_TRACKING_URI'
+[2023-11-06 00:50:22,696: INFO: stage_04_model_evaluation: >>>>>> stage Model Evaluation started <<<<<<]
+[2023-11-06 00:50:22,696: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-06 00:50:22,712: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-06 00:50:22,712: INFO: common: created directory at: artifacts]
+[2023-11-06 00:50:40,745: INFO: common: json file saved at: scores.json]
+[2023-11-06 00:51:08,914: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-06 00:51:09,463: INFO: builder_impl: Assets written to: C:\Users\VARUND~1\AppData\Local\Temp\tmplrzv6f60\model\data\model\assets]
+[2023-11-06 00:52:25,491: INFO: stage_04_model_evaluation: >>>>>> stage Model Evaluation completed <<<<<<
+
+x==========x]
+[2023-11-06 01:41:04,967: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.1.2:80]
+[2023-11-06 01:41:04,969: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-11-06 01:41:21,359: INFO: _internal: 127.0.0.1 - - [06/Nov/2023 01:41:21] "GET / HTTP/1.1" 200 -]
+[2023-11-06 01:41:43,799: INFO: _internal: 127.0.0.1 - - [06/Nov/2023 01:41:43] "POST /predict HTTP/1.1" 200 -]
+[2023-11-06 01:42:00,315: INFO: _internal: 127.0.0.1 - - [06/Nov/2023 01:42:00] "POST /predict HTTP/1.1" 200 -]
